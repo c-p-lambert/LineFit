@@ -13,4 +13,14 @@ slope = params[0]
 intercept = params[1]
 print(slope)
 print(intercept)
+###EXERCISE 1
 print_equation(slope,intercept,"g","cm")
+#The equation of the line is: y = -0.004549450640794716 g/cm x + 5.900000053810218 cm
+##EXERCISE 2
+plt.figure()
+plt.scatter(x, y, label='Data')
+plt.plot(x, linear(slope, x, intercept),label='Linear Fit') #change this label if you have a non-linear fit
+plt.legend(loc='best')
+plt.xlabel("mass(g)") #change the units as appropriate
+plt.ylabel("height(cm)")  #change the units as appropriate
+plt.show()
