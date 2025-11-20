@@ -15,7 +15,7 @@ print(slope)
 print(intercept)
 ###EXERCISE 1
 print_equation(slope,intercept,"g","cm")
-#The equation of the line is: y = -0.004549450640794716 g/cm x + 5.900000053810218 cm
+#The equation of the line is: y = -0.004549450640794716 cm/g x + 5.900000053810218 cm
 ##EXERCISE 2
 plt.figure()
 plt.scatter(x, y, label='Data')
